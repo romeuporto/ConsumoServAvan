@@ -1,0 +1,434 @@
+
+# Criado por https://www.toptal.com/developers/gitignore/api/flutter,dart,androidstudio,android,windows,java,kotlin,swift
+# Edite em https://www.toptal.com/developers/gitignore?templates=flutter,dart,androidstudio,android,windows,java,kotlin,swift
+
+### Android ###
+# Arquivos de aplicativos criados
+* .apk
+* .aar
+* .ap_
+* .aab
+
+# Arquivos para ART / Dalvik VM
+* .dex
+
+# Arquivos de classe Java
+*.classe
+
+# Arquivos gerados
+bin /
+gen /
+Fora/
+# Remova o comentário da linha a seguir caso precise e não tenha os arquivos do tipo de versão de compilação em seu aplicativo
+# lançamento/
+
+# Arquivos Gradle
+.gradle /
+Construir/
+
+# Arquivo de configuração local (caminho sdk, etc)
+local.properties
+
+# Pasta Proguard gerada pelo Eclipse
+proguard /
+
+# Arquivos de log
+*.registro
+
+# Arquivos temporários do editor de navegação Android Studio
+.navegação/
+
+# Android Studio captura pasta
+captura /
+
+# IntelliJ
+* .iml
+.idea / workspace.xml
+.idea / tasks.xml
+.idea / gradle.xml
+.idea / assetWizardSettings.xml
+.idea / dicionários
+.idea / bibliotecas
+# Android Studio 3 no arquivo .gitignore.
+.idea / caches
+.idea / modules.xml
+# Comente a próxima linha se manter a posição dos elementos no Editor de Navegação for relevante para você
+.idea / navEditor.xml
+
+# Arquivos de armazenamento de chaves
+# Remova o comentário das linhas a seguir se não quiser verificar seus arquivos de armazenamento de chave.
+# *. jks
+# *. armazenamento de chaves
+
+# Pasta de compilação nativa externa gerada no Android Studio 2.2 e posterior
+.externalNativeBuild
+.cxx /
+
+# Serviços do Google (por exemplo, APIs ou Firebase)
+# google-services.json
+
+# Linha gratuita
+freeline.py
+Linha gratuita/
+freeline_project_description.json
+
+# fastlane
+fastlane / report.xml
+fastlane / Preview.html
+fastlane / screenshots
+fastlane / test_output
+fastlane / readme.md
+
+# Controle de versão
+vcs.xml
+
+# lint
+fiapos / intermediários /
+lint / gerado /
+lint / saídas /
+lint / tmp /
+# lint / reports /
+
+### Patch Android ###
+gen-external-apklibs
+output.json
+
+# Substituição de diretórios .externalNativeBuild introduzidos
+# com Android Studio 3.5.
+
+### Dart ###
+# Veja https://www.dartlang.org/guides/libraries/private-files
+
+# Arquivos e diretórios criados por pub
+.dart_tool /
+.packages
+# Se você estiver criando um aplicativo, convém fazer check-in em seu pubspec.lock
+pubspec.lock
+
+# Diretório criado por dartdoc
+# Se você não gerar documentação localmente, você pode remover esta linha.
+doc / api /
+
+# Evite enviar arquivos Javascript gerados:
+* .dart.js
+* .info.json # Produzido pelo sinalizador --dump-info.
+* .js # Quando gerado por dart2js. Não especifique * .js se o seu
+                 # projeto inclui arquivos de origem escritos em JavaScript.
+* .js_
+* .js.deps
+* .js.map
+
+### Flutter ###
+# Flutter / Dart / Pub related
+** / doc / api /
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm /
+.pub-cache /
+.bar/
+cobertura/
+lib / generated_plugin_registrant.dart
+# Para pacotes de biblioteca, não confirme o arquivo pubspec.lock.
+# Gerar novamente o arquivo pubspec.lock permite que você teste seu pacote em relação às versões compatíveis mais recentes de suas dependências.
+# Veja https://dart.dev/guides/libraries/private-files#pubspeclock
+# pubspec.lock
+
+# Relacionado ao Android
+** / android / ** / gradle-wrapper.jar
+** / android / .gradle
+** / android / captures /
+** / android / gradlew
+** / android / gradlew.bat
+** / android / key.properties
+** / android / local.properties
+** / android / ** / GeneratedPluginRegistrant.java
+
+# iOS / XCode relacionado
+** / ios / ** / *. mode1v3
+** / ios / ** / *. mode2v3
+** / ios / ** / *. movido para o lado
+** / ios / ** / *. pbxuser
+** / ios / ** / *. perspectivev3
+** / ios / ** / * sync /
+** / ios / ** /. sconsign.dblite
+** / ios / ** /. tags *
+** / ios / ** /. vagrant /
+** / ios / ** / DerivedData /
+** / ios / ** / Icon?
+** / ios / ** / Pods /
+** / ios / ** /. symlinks /
+** / ios / ** / profile
+** / ios / ** / xcuserdata
+** / ios / .generated /
+** / ios / Flutter / .last_build_id
+** / ios / Flutter / App.framework
+** / ios / Flutter / Flutter.framework
+** / ios / Flutter / Flutter.podspec
+** / ios / Flutter / Generated.xcconfig
+** / ios / Flutter / app.flx
+** / ios / Flutter / app.zip
+** / ios / Flutter / flutter_assets /
+** / ios / Flutter / flutter_export_environment.sh
+** / ios / ServiceDefinitions.json
+** / ios / Runner / GeneratedPluginRegistrant. *
+
+# Exceções às regras acima.
+! ** / ios / ** / default.mode1v3
+! ** / ios / ** / default.mode2v3
+! ** / ios / ** / default.pbxuser
+! ** / ios / ** / default.perspectivev3
+! / packages / flutter_tools / test / data / dart_dependencies_test / ** /. packages
+
+### Java ###
+# Arquivo de classe compilado
+
+# Arquivo de log
+
+# Arquivos BlueJ
+* .ctxt
+
+# Ferramentas móveis para Java (J2ME)
+.mtj.tmp /
+
+# Arquivos de pacote #
+* .jar
+*.guerra
+* .nar
+*.orelha
+*.fecho eclair
+* .tar.gz
+* .rar
+
+# logs de travamento da máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid *
+
+### Kotlin ###
+# Arquivo de classe compilado
+
+# Arquivo de log
+
+# Arquivos BlueJ
+
+# Ferramentas móveis para Java (J2ME)
+
+# Arquivos de pacote #
+
+# logs de travamento da máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+
+### Rápido ###
+# Xcode
+#
+# contribuidores gitignore: lembre-se de atualizar Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Configurações do Usuário
+xcuserdata /
+
+## compatibilidade com Xcode 8 e anteriores (ignorar não é necessário iniciar o Xcode 9)
+* .xcscmblueprint
+* .xccheckout
+
+## compatibilidade com Xcode 3 e anteriores (ignorar não é necessário iniciar o Xcode 4)
+DerivedData /
+* .movido de lado
+* .pbxuser
+! default.pbxuser
+* .mode1v3
+! default.mode1v3
+* .mode2v3
+! default.mode2v3
+* .perspectivev3
+! default.perspectivev3
+
+## Obj-C / Swift específico
+* .hmap
+
+## Pacote de aplicativos
+* .ipa
+* .dSYM.zip
+* .dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Gerenciador de pacotes Swift
+# Adicione esta linha se você deseja evitar o check-in do código-fonte das dependências do Swift Package Manager.
+# Pacotes /
+# Package.pins
+# Package.resolved
+# * .xcodeproj
+# Xcode gera automaticamente este diretório com um arquivo .xcworkspacedata e xcuserdata
+# portanto, não é necessário, a menos que você tenha adicionado um arquivo de configuração de pacote ao seu projeto
+# .swiftpm
+
+.Construir/
+
+# CocoaPods
+# Recomendamos não adicionar o diretório Pods ao seu .gitignore. Contudo
+# você deve julgar por si mesmo, os prós e contras são mencionados em:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# Pods /
+# Adicione esta linha se quiser evitar o check-in do código-fonte no espaço de trabalho do Xcode
+# * .xcworkspace
+
+# Cartago
+# Adicione esta linha se você deseja evitar o check-in do código-fonte das dependências de Carthage.
+# Carthage / Checkouts
+
+Cartago / Construir /
+
+# Gerenciamento de dependência Accio
+Dependências /
+.accio /
+
+# fastlane
+# É recomendado não armazenar as capturas de tela no repositório git.
+# Em vez disso, use o fastlane para gerar novamente as capturas de tela sempre que necessário.
+# Para obter mais informações sobre a configuração recomendada, visite:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane / screenshots / ** / *. png
+
+# Injeção de código
+# Depois de novas ferramentas de injeção de código, há uma pasta gerada / iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject /
+
+### Janelas ###
+# Arquivos de cache de miniatura do Windows
+Thumbs.db
+Thumbs.db: criptografável
+ehthumbs.db
+ehthumbs_vista.db
+
+# Despejar arquivo
+* .stackdump
+
+# Arquivo de configuração de pasta
+[Dd] esktop.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$ RECYCLE.BIN /
+
+# Arquivos do Windows Installer
+*.táxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Atalhos do Windows
+* .lnk
+
+### AndroidStudio ###
+# Cobre os arquivos a serem ignorados para o desenvolvimento do Android usando o Android Studio.
+
+# Arquivos de aplicativos criados
+
+# Arquivos para ART / Dalvik VM
+
+# Arquivos de classe Java
+
+# Arquivos gerados
+
+# Arquivos Gradle
+.gradle
+
+# Arquivos de assinatura
+.signing /
+
+# Arquivo de configuração local (caminho sdk, etc)
+
+# Pasta Proguard gerada pelo Eclipse
+
+# Arquivos de log
+
+# Android Studio
+/*/Construir/
+/*/local.properties
+/*/Fora
+/*/*/Construir
+/*/*/Produção
+* .ipr
+* ~
+* .swp
+
+# Arquivos de armazenamento de chaves
+* .jks
+* .keystore
+
+# Serviços do Google (por exemplo, APIs ou Firebase)
+# google-services.json
+
+# Patch Android
+
+# Pasta de compilação nativa externa gerada no Android Studio 2.2 e posterior
+
+# NDK
+obj /
+
+# IntelliJ IDEA
+* .iws
+/Fora/
+
+# Configurações específicas do usuário
+.idea / caches /
+.idea / libraries /
+.idea / shelf /
+.idea / .name
+.idea / compiler.xml
+.idea / copyright / profiles_settings.xml
+.idea / encodings.xml
+.idea / misc.xml
+.idea / scopes / scope_settings.xml
+.idea / vcs.xml
+.idea / jsLibraryMappings.xml
+.idea / datasources.xml
+.idea / dataSources.ids
+.idea / sqlDataSources.xml
+.idea / dynamic.xml
+.idea / uiDesigner.xml
+.idea / jarRepositories.xml
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+.DS_Store?
+._ *
+.Spotlight-V100
+.Trashes
+
+# Arquivos de projeto Eclipse legados
+.classpath
+.projeto
+.cproject
+.definições/
+
+# Ferramentas móveis para Java (J2ME)
+
+# Arquivos de pacote #
+
+# logs de travamento da máquina virtual (Referência: http://www.java.com/en/download/help/error_hotspot.xml)
+
+## Arquivos específicos de plug-ins:
+
+# mpeltonen / plugin sbt-idea
+.idea_modules /
+
+# Plugin JIRA
+atlassian-ide-plugin.xml
+
+# Plugin do Mongo Explorer
+.idea / mongoSettings.xml
+
+# Plug-in Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### AndroidStudio Patch ###
+
+! /gradle/wrapper/gradle-wrapper.jar
+
+# Fim de https://www.toptal.com/developers/gitignore/api/flutter,dart,androidstudio,android,windows,java,kotlin,swift
