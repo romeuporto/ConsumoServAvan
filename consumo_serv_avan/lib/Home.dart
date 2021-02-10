@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart';
+import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'dart:async';
 
@@ -10,19 +10,22 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-  void _resultadoPreco() async {
+  Future<Map> _rescuperaPreco() async {
     String url = "https://blockchain.info/ticker";
     http.Response response = await http.get(url);
-    return response;
-
-    Map<String, dynamic> retorno = json.decode(response.body);
-    setState(() {
-      _resultadoPreco() = retorno[exemplo].toString();
-    });
+    return json.decode(response.body);
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return FutureBuilder<Map>(
+      future: _rescuperaPreco(),
+      builder: (context, snapshot){
+        switch (snapshot.connectionState) {
+          case ConnectionState.none :
+          case ConnectionState.waiting
+        }
+      }
+    );
   }
 }
