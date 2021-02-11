@@ -21,9 +21,15 @@ class _HomeState extends State<Home> {
     return FutureBuilder<Map>(
       future: _rescuperaPreco(),
       builder: (context, snapshot){
-        switch (snapshot.connectionState) {
+        switch(snapshot.connectionState){
           case ConnectionState.none :
-          case ConnectionState.waiting
+          case ConnectionState.waiting :
+            print("conexao wating");
+            break;
+          case ConnectionState.done :
+            print("conexao done");
+            break;
+          case ConnectionState.active:
         }
       }
     );
